@@ -13,12 +13,12 @@ public class Lexer {
 
         while (i < texto.length()) {
             char c = texto.charAt(i);
-            // 1. Saltar espacios en blanco
+            //  Saltar espacios en blanco
             if (Character.isWhitespace(c)) {
                 i++;
                 continue;
             }
-            // 2. Procesar Números
+            //  Procesar Números
             if (Character.isDigit(c)) {
                 int inicio = i;
                 while (i < texto.length() && (Character.isDigit(texto.charAt(i)) || texto.charAt(i) == '.')) {
@@ -27,7 +27,7 @@ public class Lexer {
                 tokens.add(new Token(TokenType.NUMERO, texto.substring(inicio, i)));
                 continue; // Saltamos al siguiente ciclo sin avanzar i otra vez
             }
-            // 3. Procesar Operadores y Símbolos
+            //  Procesar Operadores y Símbolos
             switch (c) {
                 case '+' -> tokens.add(new Token(TokenType.SUMA, "+"));
                 case '-' -> tokens.add(new Token(TokenType.RESTA, "-"));
