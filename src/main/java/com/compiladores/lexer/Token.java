@@ -1,16 +1,16 @@
 package com.compiladores.lexer;
 
 public class Token {
-    public final TokenType tipo;
-    public final String valor;
+    public final TokenType t;
+    public final String v;
 
-    public Token(TokenType tipo, String valor) {
-        this.tipo = tipo;
-        this.valor = valor;
+    public Token(TokenType t, String v) {
+        this.tipo = t;
+        this.valor = v;
     }
 
     @Override
     public String toString() {
-        return "Token(" + tipo + ", '" + valor + "')";
+        return "Token(" + t + ", '" + v + "')";
     }
 }
