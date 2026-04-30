@@ -1,0 +1,6 @@
+/home/coort/Documentos/projects/clase/analizador-sintactico/src/main/java/com/compiladores/parser/Parser.java
+/home/coort/Documentos/projects/clase/analizador-sintactico/src/main/java/com/compiladores/ast/Nodo.java
+/home/coort/Documentos/projects/clase/analizador-sintactico/src/main/java/com/compiladores/lexer/Token.java
+/home/coort/Documentos/projects/clase/analizador-sintactico/src/main/java/com/compiladores/lexer/TokenType.java
+/home/coort/Documentos/projects/clase/analizador-sintactico/src/main/java/com/compiladores/App.java
+/home/coort/Documentos/projects/clase/analizador-sintactico/src/main/java/com/compiladores/lexer/Lexer.java
